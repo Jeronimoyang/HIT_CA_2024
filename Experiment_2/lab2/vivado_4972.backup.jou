@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Oct 24 13:43:36 2024
+# Process ID: 4972
+# Current directory: E:/CA/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12992 E:\CA\lab2\lab2.xpr
+# Log file: E:/CA/lab2/vivado.log
+# Journal file: E:/CA/lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/CA/lab2/lab2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config E:/CA/lab2/lab2.srcs/sim_1/imports/lab4/tb_behav.wcfg
+source tb.tcl
+run all
+relaunch_sim
+run all
+close_sim
