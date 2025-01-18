@@ -1,0 +1,324 @@
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.ram.inst.\axi_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Block Memory Generator module tb.soc.lcd.inst.textram.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.mrcore.inst.Fetch_module.\genblk1[0].icdat0 .bs.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.mrcore.inst.Fetch_module.\genblk1[0].icdat1 .bs.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.mrcore.inst.Fetch_module.\genblk1[1].icdat0 .bs.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.mrcore.inst.Fetch_module.\genblk1[1].icdat1 .bs.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.mrcore.inst.Fetch_module.\genblk1[2].icdat0 .bs.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.mrcore.inst.Fetch_module.\genblk1[2].icdat1 .bs.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.mrcore.inst.Fetch_module.\genblk1[3].icdat0 .bs.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.mrcore.inst.Fetch_module.\genblk1[3].icdat1 .bs.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.mrcore.inst.FU_MU_module.\genblk1[0].dcache_data .bt.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.mrcore.inst.FU_MU_module.\genblk1[1].dcache_data .bt.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.mrcore.inst.FU_MU_module.\genblk1[2].dcache_data .bt.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.u_axi.inst.\axi_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.soc.checker.ct.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_4 collision detected at time: 185000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_4 collision detected at time: 185000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_4 collision detected at time: 355000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 9, B  read address: 9
+blk_mem_gen_v8_4_4 collision detected at time: 355000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 9, B  read address: 9
+blk_mem_gen_v8_4_4 collision detected at time: 535000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 12, B  read address: 12
+blk_mem_gen_v8_4_4 collision detected at time: 535000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 12, B  read address: 12
+blk_mem_gen_v8_4_4 collision detected at time: 845000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: e3, B  read address: e3
+blk_mem_gen_v8_4_4 collision detected at time: 845000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: e3, B  read address: e3
+blk_mem_gen_v8_4_4 collision detected at time: 1135000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: fb, B  read address: fb
+blk_mem_gen_v8_4_4 collision detected at time: 1135000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: fb, B  read address: fb
+blk_mem_gen_v8_4_4 collision detected at time: 1385000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 4a, B  read address: 4a
+blk_mem_gen_v8_4_4 collision detected at time: 1385000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 4a, B  read address: 4a
+blk_mem_gen_v8_4_4 collision detected at time: 1825000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 39, B  read address: 39
+blk_mem_gen_v8_4_4 collision detected at time: 1825000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 39, B  read address: 39
+blk_mem_gen_v8_4_4 collision detected at time: 2005000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1d, B  read address: 1d
+blk_mem_gen_v8_4_4 collision detected at time: 2005000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1d, B  read address: 1d
+-blk_mem_gen_v8_4_4 collision detected at time: 5735000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 43, B  read address: 43
+blk_mem_gen_v8_4_4 collision detected at time: 5735000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 43, B  read address: 43
+-blk_mem_gen_v8_4_4 collision detected at time: 6295000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 9c, B  read address: 9c
+blk_mem_gen_v8_4_4 collision detected at time: 6295000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 9c, B  read address: 9c
+-blk_mem_gen_v8_4_4 collision detected at time: 7005000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 224, B  read address: 224
+blk_mem_gen_v8_4_4 collision detected at time: 7005000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 224, B  read address: 224
+-blk_mem_gen_v8_4_4 collision detected at time: 7645000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 384, B  read address: 384
+blk_mem_gen_v8_4_4 collision detected at time: 7645000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 384, B  read address: 384
+-blk_mem_gen_v8_4_4 collision detected at time: 7775000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 38b, B  read address: 38b
+blk_mem_gen_v8_4_4 collision detected at time: 7775000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 38b, B  read address: 38b
+---blk_mem_gen_v8_4_4 collision detected at time: 9655000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3b2, B  read address: 3b2
+blk_mem_gen_v8_4_4 collision detected at time: 9655000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3b2, B  read address: 3b2
+blk_mem_gen_v8_4_4 collision detected at time: 10065000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3eb, B  read address: 3eb
+blk_mem_gen_v8_4_4 collision detected at time: 10065000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3eb, B  read address: 3eb
+--blk_mem_gen_v8_4_4 collision detected at time: 10505000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 72, B  read address: 72
+blk_mem_gen_v8_4_4 collision detected at time: 10505000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 72, B  read address: 72
+---------
+blk_mem_gen_v8_4_4 collision detected at time: 13945000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 96, B  read address: 96
+blk_mem_gen_v8_4_4 collision detected at time: 13945000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 96, B  read address: 96
+   HIT COA Lab3    blk_mem_gen_v8_4_4 collision detected at time: 21605000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3cd, B  read address: 3cd
+blk_mem_gen_v8_4_4 collision detected at time: 21605000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3cd, B  read address: 3cd
+
+Iblk_mem_gen_v8_4_4 collision detected at time: 23275000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: ac, B  read address: ac
+blk_mem_gen_v8_4_4 collision detected at time: 23275000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: ac, B  read address: ac
+nsblk_mem_gen_v8_4_4 collision detected at time: 23785000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 26c, B  read address: 26c
+blk_mem_gen_v8_4_4 collision detected at time: 23785000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 26c, B  read address: 26c
+trublk_mem_gen_v8_4_4 collision detected at time: 25105000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 31c, B  read address: 31c
+blk_mem_gen_v8_4_4 collision detected at time: 25105000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 31c, B  read address: 31c
+cblk_mem_gen_v8_4_4 collision detected at time: 25685000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 2b5, B  read address: 2b5
+blk_mem_gen_v8_4_4 collision detected at time: 25685000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 2b5, B  read address: 2b5
+tiblk_mem_gen_v8_4_4 collision detected at time: 26395000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 315, B  read address: 315
+blk_mem_gen_v8_4_4 collision detected at time: 26395000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 315, B  read address: 315
+on Cache
+-----------blk_mem_gen_v8_4_4 collision detected at time: 33665000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 361, B  read address: 361
+blk_mem_gen_v8_4_4 collision detected at time: 33665000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 361, B  read address: 361
+-blk_mem_gen_v8_4_4 collision detected at time: 33825000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 36b, B  read address: 36b
+blk_mem_gen_v8_4_4 collision detected at time: 33825000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 36b, B  read address: 36b
+-------
+blk_mem_gen_v8_4_4 collision detected at time: 38985000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3d7, B  read address: 3d7
+blk_mem_gen_v8_4_4 collision detected at time: 38985000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3d7, B  read address: 3d7
+blk_mem_gen_v8_4_4 collision detected at time: 40145000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3f6, B  read address: 3f6
+blk_mem_gen_v8_4_4 collision detected at time: 40145000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3f6, B  read address: 3f6
+blk_mem_gen_v8_4_4 collision detected at time: 50435000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3ae, B  read address: 3ae
+blk_mem_gen_v8_4_4 collision detected at time: 50435000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3ae, B  read address: 3ae
+blk_mem_gen_v8_4_4 collision detected at time: 50475000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3b1, B  read address: 3b1
+blk_mem_gen_v8_4_4 collision detected at time: 50475000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3b1, B  read address: 3b1
+blk_mem_gen_v8_4_4 collision detected at time: 61045000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3a6, B  read address: 3a6
+blk_mem_gen_v8_4_4 collision detected at time: 61045000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3a6, B  read address: 3a6
+blk_mem_gen_v8_4_4 collision detected at time: 97345000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 27f, B  read address: 27f
+blk_mem_gen_v8_4_4 collision detected at time: 97345000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 27f, B  read address: 27f
+blk_mem_gen_v8_4_4 collision detected at time: 97685000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1ac, B  read address: 1ac
+blk_mem_gen_v8_4_4 collision detected at time: 97685000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1ac, B  read address: 1ac
+blk_mem_gen_v8_4_4 collision detected at time: 100355000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 221, B  read address: 221
+blk_mem_gen_v8_4_4 collision detected at time: 100355000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 221, B  read address: 221
+blk_mem_gen_v8_4_4 collision detected at time: 100545000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 256, B  read address: 256
+blk_mem_gen_v8_4_4 collision detected at time: 100545000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 256, B  read address: 256
+blk_mem_gen_v8_4_4 collision detected at time: 100805000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 23c, B  read address: 23c
+blk_mem_gen_v8_4_4 collision detected at time: 100805000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 23c, B  read address: 23c
+blk_mem_gen_v8_4_4 collision detected at time: 102375000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 27d, B  read address: 27d
+blk_mem_gen_v8_4_4 collision detected at time: 102375000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 27d, B  read address: 27d
+blk_mem_gen_v8_4_4 collision detected at time: 115985000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 285, B  read address: 285
+blk_mem_gen_v8_4_4 collision detected at time: 115985000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 285, B  read address: 285
+blk_mem_gen_v8_4_4 collision detected at time: 116225000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 4, B  read address: 4
+blk_mem_gen_v8_4_4 collision detected at time: 116225000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 4, B  read address: 4
+blk_mem_gen_v8_4_4 collision detected at time: 117395000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3a, B  read address: 3a
+blk_mem_gen_v8_4_4 collision detected at time: 117395000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3a, B  read address: 3a
+blk_mem_gen_v8_4_4 collision detected at time: 117705000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: fc, B  read address: fc
+blk_mem_gen_v8_4_4 collision detected at time: 117705000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: fc, B  read address: fc
+blk_mem_gen_v8_4_4 collision detected at time: 118125000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 111, B  read address: 111
+blk_mem_gen_v8_4_4 collision detected at time: 118125000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 111, B  read address: 111
+blk_mem_gen_v8_4_4 collision detected at time: 118275000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 15f, B  read address: 15f
+blk_mem_gen_v8_4_4 collision detected at time: 118275000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 15f, B  read address: 15f
+blk_mem_gen_v8_4_4 collision detected at time: 118455000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: f7, B  read address: f7
+blk_mem_gen_v8_4_4 collision detected at time: 118455000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: f7, B  read address: f7
+blk_mem_gen_v8_4_4 collision detected at time: 119305000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: cb, B  read address: cb
+blk_mem_gen_v8_4_4 collision detected at time: 119305000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: cb, B  read address: cb
+blk_mem_gen_v8_4_4 collision detected at time: 122485000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 13e, B  read address: 13e
+blk_mem_gen_v8_4_4 collision detected at time: 122485000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 13e, B  read address: 13e
+blk_mem_gen_v8_4_4 collision detected at time: 122525000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 141, B  read address: 141
+blk_mem_gen_v8_4_4 collision detected at time: 122525000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 141, B  read address: 141
+blk_mem_gen_v8_4_4 collision detected at time: 186055000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 5e, B  read address: 5e
+blk_mem_gen_v8_4_4 collision detected at time: 186055000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 5e, B  read address: 5e
+blk_mem_gen_v8_4_4 collision detected at time: 186095000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 61, B  read address: 61
+blk_mem_gen_v8_4_4 collision detected at time: 186095000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 61, B  read address: 61
+blk_mem_gen_v8_4_4 collision detected at time: 186455000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 7b, B  read address: 7b
+blk_mem_gen_v8_4_4 collision detected at time: 186455000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 7b, B  read address: 7b
+blk_mem_gen_v8_4_4 collision detected at time: 186895000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 4a, B  read address: 4a
+blk_mem_gen_v8_4_4 collision detected at time: 186895000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 4a, B  read address: 4a
+blk_mem_gen_v8_4_4 collision detected at time: 187325000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 39, B  read address: 39
+blk_mem_gen_v8_4_4 collision detected at time: 187325000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 39, B  read address: 39
+blk_mem_gen_v8_4_4 collision detected at time: 187505000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1d, B  read address: 1d
+blk_mem_gen_v8_4_4 collision detected at time: 187505000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1d, B  read address: 1d
+blk_mem_gen_v8_4_4 collision detected at time: 189445000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 43, B  read address: 43
+blk_mem_gen_v8_4_4 collision detected at time: 189445000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 43, B  read address: 43
+blk_mem_gen_v8_4_4 collision detected at time: 190055000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: a7, B  read address: a7
+blk_mem_gen_v8_4_4 collision detected at time: 190055000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: a7, B  read address: a7
+blk_mem_gen_v8_4_4 collision detected at time: 191345000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: d2, B  read address: d2
+blk_mem_gen_v8_4_4 collision detected at time: 191345000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: d2, B  read address: d2
+blk_mem_gen_v8_4_4 collision detected at time: 192275000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: fb, B  read address: fb
+blk_mem_gen_v8_4_4 collision detected at time: 192275000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: fb, B  read address: fb
+blk_mem_gen_v8_4_4 collision detected at time: 211135000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 239, B  read address: 239
+blk_mem_gen_v8_4_4 collision detected at time: 211135000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 239, B  read address: 239
+blk_mem_gen_v8_4_4 collision detected at time: 645065000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 185, B  read address: 185
+blk_mem_gen_v8_4_4 collision detected at time: 645065000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 185, B  read address: 185
+blk_mem_gen_v8_4_4 collision detected at time: 646105000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3e, B  read address: 3e
+blk_mem_gen_v8_4_4 collision detected at time: 646105000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3e, B  read address: 3e
+blk_mem_gen_v8_4_4 collision detected at time: 646485000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3b4, B  read address: 3b4
+blk_mem_gen_v8_4_4 collision detected at time: 646485000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3b4, B  read address: 3b4
+blk_mem_gen_v8_4_4 collision detected at time: 646775000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 334, B  read address: 334
+blk_mem_gen_v8_4_4 collision detected at time: 646775000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 334, B  read address: 334
+blk_mem_gen_v8_4_4 collision detected at time: 647085000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3c6, B  read address: 3c6
+blk_mem_gen_v8_4_4 collision detected at time: 647085000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3c6, B  read address: 3c6
+blk_mem_gen_v8_4_4 collision detected at time: 647375000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 346, B  read address: 346
+blk_mem_gen_v8_4_4 collision detected at time: 647375000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 346, B  read address: 346
+blk_mem_gen_v8_4_4 collision detected at time: 648565000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3fb, B  read address: 3fb
+blk_mem_gen_v8_4_4 collision detected at time: 648565000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3fb, B  read address: 3fb
+blk_mem_gen_v8_4_4 collision detected at time: 648855000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 37b, B  read address: 37b
+blk_mem_gen_v8_4_4 collision detected at time: 648855000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 37b, B  read address: 37b
+blk_mem_gen_v8_4_4 collision detected at time: 649165000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: d, B  read address: d
+blk_mem_gen_v8_4_4 collision detected at time: 649165000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: d, B  read address: d
+blk_mem_gen_v8_4_4 collision detected at time: 649455000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 38d, B  read address: 38d
+blk_mem_gen_v8_4_4 collision detected at time: 649455000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 38d, B  read address: 38d
+blk_mem_gen_v8_4_4 collision detected at time: 649765000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1f, B  read address: 1f
+blk_mem_gen_v8_4_4 collision detected at time: 649765000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1f, B  read address: 1f
+blk_mem_gen_v8_4_4 collision detected at time: 650035000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 39f, B  read address: 39f
+blk_mem_gen_v8_4_4 collision detected at time: 650035000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 39f, B  read address: 39f
+blk_mem_gen_v8_4_4 collision detected at time: 650545000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 41, B  read address: 41
+blk_mem_gen_v8_4_4 collision detected at time: 650545000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 41, B  read address: 41
+blk_mem_gen_v8_4_4 collision detected at time: 650895000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 66, B  read address: 66
+blk_mem_gen_v8_4_4 collision detected at time: 650895000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 66, B  read address: 66
+blk_mem_gen_v8_4_4 collision detected at time: 653695000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1a6, B  read address: 1a6
+blk_mem_gen_v8_4_4 collision detected at time: 653695000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1a6, B  read address: 1a6
+blk_mem_gen_v8_4_4 collision detected at time: 654805000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3e, B  read address: 3e
+blk_mem_gen_v8_4_4 collision detected at time: 654805000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3e, B  read address: 3e
+blk_mem_gen_v8_4_4 collision detected at time: 655705000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3f1, B  read address: 3f1
+blk_mem_gen_v8_4_4 collision detected at time: 655705000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3f1, B  read address: 3f1
+blk_mem_gen_v8_4_4 collision detected at time: 660755000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1f, B  read address: 1f
+blk_mem_gen_v8_4_4 collision detected at time: 660755000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1f, B  read address: 1f
+blk_mem_gen_v8_4_4 collision detected at time: 664355000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3e, B  read address: 3e
+blk_mem_gen_v8_4_4 collision detected at time: 664355000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3e, B  read address: 3e
+blk_mem_gen_v8_4_4 collision detected at time: 669095000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3e, B  read address: 3e
+blk_mem_gen_v8_4_4 collision detected at time: 669095000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3e, B  read address: 3e
+blk_mem_gen_v8_4_4 collision detected at time: 673845000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3e, B  read address: 3e
+blk_mem_gen_v8_4_4 collision detected at time: 673845000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3e, B  read address: 3e
+blk_mem_gen_v8_4_4 collision detected at time: 678545000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 9c, B  read address: 9c
+blk_mem_gen_v8_4_4 collision detected at time: 678545000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 9c, B  read address: 9c
+blk_mem_gen_v8_4_4 collision detected at time: 679475000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: b1, B  read address: b1
+blk_mem_gen_v8_4_4 collision detected at time: 679475000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: b1, B  read address: b1
+blk_mem_gen_v8_4_4 collision detected at time: 684125000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 12f, B  read address: 12f
+blk_mem_gen_v8_4_4 collision detected at time: 684125000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 12f, B  read address: 12f
+blk_mem_gen_v8_4_4 collision detected at time: 690745000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1ab, B  read address: 1ab
+blk_mem_gen_v8_4_4 collision detected at time: 690745000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1ab, B  read address: 1ab
+blk_mem_gen_v8_4_4 collision detected at time: 692295000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1f4, B  read address: 1f4
+blk_mem_gen_v8_4_4 collision detected at time: 692295000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1f4, B  read address: 1f4
+blk_mem_gen_v8_4_4 collision detected at time: 708095000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: d9, B  read address: d9
+blk_mem_gen_v8_4_4 collision detected at time: 708095000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: d9, B  read address: d9
+blk_mem_gen_v8_4_4 collision detected at time: 708585000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 62, B  read address: 62
+blk_mem_gen_v8_4_4 collision detected at time: 708585000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 62, B  read address: 62
+blk_mem_gen_v8_4_4 collision detected at time: 709095000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: fd, B  read address: fd
+blk_mem_gen_v8_4_4 collision detected at time: 709095000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: fd, B  read address: fd
+blk_mem_gen_v8_4_4 collision detected at time: 709765000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 8e, B  read address: 8e
+blk_mem_gen_v8_4_4 collision detected at time: 709765000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 8e, B  read address: 8e
+blk_mem_gen_v8_4_4 collision detected at time: 711245000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: cb, B  read address: cb
+blk_mem_gen_v8_4_4 collision detected at time: 711245000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: cb, B  read address: cb
+blk_mem_gen_v8_4_4 collision detected at time: 711755000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 25b, B  read address: 25b
+blk_mem_gen_v8_4_4 collision detected at time: 711755000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 25b, B  read address: 25b
+blk_mem_gen_v8_4_4 collision detected at time: 711885000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 263, B  read address: 263
+blk_mem_gen_v8_4_4 collision detected at time: 711885000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 263, B  read address: 263
+blk_mem_gen_v8_4_4 collision detected at time: 718985000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 2dc, B  read address: 2dc
+blk_mem_gen_v8_4_4 collision detected at time: 718985000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 2dc, B  read address: 2dc
+blk_mem_gen_v8_4_4 collision detected at time: 719255000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 2e9, B  read address: 2e9
+blk_mem_gen_v8_4_4 collision detected at time: 719255000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 2e9, B  read address: 2e9
+blk_mem_gen_v8_4_4 collision detected at time: 734905000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 59, B  read address: 59
+blk_mem_gen_v8_4_4 collision detected at time: 734905000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 59, B  read address: 59
+blk_mem_gen_v8_4_4 collision detected at time: 735215000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: f4, B  read address: f4
+blk_mem_gen_v8_4_4 collision detected at time: 735215000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: f4, B  read address: f4
+blk_mem_gen_v8_4_4 collision detected at time: 736685000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: c3, B  read address: c3
+blk_mem_gen_v8_4_4 collision detected at time: 736685000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: c3, B  read address: c3
+blk_mem_gen_v8_4_4 collision detected at time: 737305000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 38d, B  read address: 38d
+blk_mem_gen_v8_4_4 collision detected at time: 737305000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 38d, B  read address: 38d
+blk_mem_gen_v8_4_4 collision detected at time: 804015000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 61, B  read address: 61
+blk_mem_gen_v8_4_4 collision detected at time: 804015000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 61, B  read address: 61
+blk_mem_gen_v8_4_4 collision detected at time: 805075000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 6c, B  read address: 6c
+blk_mem_gen_v8_4_4 collision detected at time: 805075000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 6c, B  read address: 6c
+blk_mem_gen_v8_4_4 collision detected at time: 818315000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3c, B  read address: 3c
+blk_mem_gen_v8_4_4 collision detected at time: 818315000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3c, B  read address: 3c
+blk_mem_gen_v8_4_4 collision detected at time: 819175000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 62, B  read address: 62
+blk_mem_gen_v8_4_4 collision detected at time: 819175000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 62, B  read address: 62
+blk_mem_gen_v8_4_4 collision detected at time: 819735000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 84, B  read address: 84
+blk_mem_gen_v8_4_4 collision detected at time: 819735000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 84, B  read address: 84
+blk_mem_gen_v8_4_4 collision detected at time: 821145000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: bf, B  read address: bf
+blk_mem_gen_v8_4_4 collision detected at time: 821145000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: bf, B  read address: bf
+blk_mem_gen_v8_4_4 collision detected at time: 821195000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: c3, B  read address: c3
+blk_mem_gen_v8_4_4 collision detected at time: 821195000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: c3, B  read address: c3
+blk_mem_gen_v8_4_4 collision detected at time: 932105000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 14a, B  read address: 14a
+blk_mem_gen_v8_4_4 collision detected at time: 932105000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 14a, B  read address: 14a
+blk_mem_gen_v8_4_4 collision detected at time: 933665000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 194, B  read address: 194
+blk_mem_gen_v8_4_4 collision detected at time: 933665000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 194, B  read address: 194
+blk_mem_gen_v8_4_4 collision detected at time: 950305000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 105, B  read address: 105
+blk_mem_gen_v8_4_4 collision detected at time: 950305000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 105, B  read address: 105
+blk_mem_gen_v8_4_4 collision detected at time: 950695000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 8e, B  read address: 8e
+blk_mem_gen_v8_4_4 collision detected at time: 950695000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 8e, B  read address: 8e
+blk_mem_gen_v8_4_4 collision detected at time: 951215000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: bb, B  read address: bb
+blk_mem_gen_v8_4_4 collision detected at time: 951215000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: bb, B  read address: bb
+blk_mem_gen_v8_4_4 collision detected at time: 952075000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1e6, B  read address: 1e6
+blk_mem_gen_v8_4_4 collision detected at time: 952075000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1e6, B  read address: 1e6
+blk_mem_gen_v8_4_4 collision detected at time: 952135000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1eb, B  read address: 1eb
+blk_mem_gen_v8_4_4 collision detected at time: 952135000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1eb, B  read address: 1eb
+blk_mem_gen_v8_4_4 collision detected at time: 957195000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: eb, B  read address: eb
+blk_mem_gen_v8_4_4 collision detected at time: 957195000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: eb, B  read address: eb
+blk_mem_gen_v8_4_4 collision detected at time: 958805000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 9f, B  read address: 9f
+blk_mem_gen_v8_4_4 collision detected at time: 958805000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 9f, B  read address: 9f
+blk_mem_gen_v8_4_4 collision detected at time: 959025000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3d, B  read address: 3d
+blk_mem_gen_v8_4_4 collision detected at time: 959025000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3d, B  read address: 3d
+blk_mem_gen_v8_4_4 collision detected at time: 959545000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3b4, B  read address: 3b4
+blk_mem_gen_v8_4_4 collision detected at time: 959545000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3b4, B  read address: 3b4
+blk_mem_gen_v8_4_4 collision detected at time: 960035000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 33d, B  read address: 33d
+blk_mem_gen_v8_4_4 collision detected at time: 960035000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 33d, B  read address: 33d
+blk_mem_gen_v8_4_4 collision detected at time: 960345000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3cf, B  read address: 3cf
+blk_mem_gen_v8_4_4 collision detected at time: 960345000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 3cf, B  read address: 3cf
+blk_mem_gen_v8_4_4 collision detected at time: 961915000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 39f, B  read address: 39f
+blk_mem_gen_v8_4_4 collision detected at time: 961915000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 39f, B  read address: 39f
+blk_mem_gen_v8_4_4 collision detected at time: 962675000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 66, B  read address: 66
+blk_mem_gen_v8_4_4 collision detected at time: 962675000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 66, B  read address: 66
+blk_mem_gen_v8_4_4 collision detected at time: 963975000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: b1, B  read address: b1
+blk_mem_gen_v8_4_4 collision detected at time: 963975000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: b1, B  read address: b1
+blk_mem_gen_v8_4_4 collision detected at time: 968615000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 12c, B  read address: 12c
+blk_mem_gen_v8_4_4 collision detected at time: 968615000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 12c, B  read address: 12c
+blk_mem_gen_v8_4_4 collision detected at time: 975435000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1ab, B  read address: 1ab
+blk_mem_gen_v8_4_4 collision detected at time: 975435000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1ab, B  read address: 1ab
+blk_mem_gen_v8_4_4 collision detected at time: 976505000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1f4, B  read address: 1f4
+blk_mem_gen_v8_4_4 collision detected at time: 976505000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 1f4, B  read address: 1f4
+blk_mem_gen_v8_4_4 collision detected at time: 992305000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: d9, B  read address: d9
+blk_mem_gen_v8_4_4 collision detected at time: 992305000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: d9, B  read address: d9
+blk_mem_gen_v8_4_4 collision detected at time: 992695000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 62, B  read address: 62
+blk_mem_gen_v8_4_4 collision detected at time: 992695000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 62, B  read address: 62
+blk_mem_gen_v8_4_4 collision detected at time: 994755000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: cb, B  read address: cb
+blk_mem_gen_v8_4_4 collision detected at time: 994755000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: cb, B  read address: cb
+blk_mem_gen_v8_4_4 collision detected at time: 1016705000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 59, B  read address: 59
+blk_mem_gen_v8_4_4 collision detected at time: 1016705000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 59, B  read address: 59
+blk_mem_gen_v8_4_4 collision detected at time: 1018285000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: c3, B  read address: c3
+blk_mem_gen_v8_4_4 collision detected at time: 1018285000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: c3, B  read address: c3
+blk_mem_gen_v8_4_4 collision detected at time: 1018925000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 38d, B  read address: 38d
+blk_mem_gen_v8_4_4 collision detected at time: 1018925000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 38d, B  read address: 38d
+blk_mem_gen_v8_4_4 collision detected at time: 1055325000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: e5, B  read address: e5
+blk_mem_gen_v8_4_4 collision detected at time: 1055325000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: e5, B  read address: e5
+blk_mem_gen_v8_4_4 collision detected at time: 1055635000, Instance: tb.soc.your_cache.data_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_4 collision detected at time: 1055635000, Instance: tb.soc.your_cache.data_2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 0, B  read address: 0
+Your cache is correct! In total 100011 requests:
+Total 561 misses (miss rate: 0.56%)
+Total 105558 cycles (1.05 cycles per request)
+
+PASS! You have done well!
+-------------------
+$finish called at time : 1158215 ns : File "E:/vivado_project/tixijiegou-lab3/lab3/lab3.srcs/sources_1/new/cache_checker.v" Line 79
+INFO: xsimkernel Simulation Memory Usage: 35952 KB (Peak: 35952 KB), Simulation CPU Usage: 30608 ms
